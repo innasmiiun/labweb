@@ -1,0 +1,78 @@
+body {
+	background-image: url("a1.jpg");
+	background-repeat: y-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.menu > ul > li > a[href="#"] {
+	color: rgb(46, 40, 40) !important;
+}
+
+.navbar{
+    background-color:#856b65;
+    height: 125px;
+}
+
+.container{
+    margin: 20px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+img{
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color:#856b65!important;
+    padding:15px !important;
+    height: 80px; 
+    color: whitesmoke;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.title{
+    background-color: rgba(139, 120, 115, 0.6); 
+    margin: 15px;
+    border-radius: 15px;
+    font-family: 'Pattaya', sans-serif !important;
+    text-align: center;
+    color: white !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    padding: 20px;
+}
+
+.col-sm-3-main{
+   background-color: rgba(161, 138, 133, 0.6);
+   border-radius: 15px !important;
+   padding: 5%;
+   text-align:center;
+}
+
+.col-sm-9-main{
+   background-color: rgba(161, 138, 133, 0.6);
+    border-radius: 15px !important;
+    text-align:justify;
+    font-family: 'Vollkorn', serif;
+    color: rgb(68, 62, 62);
+    text-indent: 2%;
+}
+
+.nav-link
+{
+    font-size: 20px;
+    color: white !important;
+    background: rgba(161, 138, 133, 0.6);
+    border-radius: 15px !important;
+    font-family: 'Pattaya', sans-serif; 
+}
+.menu>ul > li:hover {
+    background-color:#856b65;
+    border-radius: 15px;
+}
+
+.carousel img {
+    max-height: 500px;
+    object-fit: contain;
+}
