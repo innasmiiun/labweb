@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Калькулятор</title>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+	<div class="wrapper">
+		<div id="pole">0</div> <br>
+		<div class="row">
+			<div class="button1" onclick="myModule.knop('%', this)">%</div> 
+			<div class="button1" onclick="myModule.knop('√', this)">√</div> 
+			<div class="button1" onclick="myModule.knop('^', this)">^</div> 
+			<div class="button1" onclick="myModule.knop('/', this)">/</div> 
+		</div> <br>
+		<div class="row">
+			<div class="button2" onclick="myModule.numb('7')">7</div> 
+			<div class="button2" onclick="myModule.numb('8')">8</div> 
+			<div class="button2" onclick="myModule.numb('9')">9</div> 
+			<div class="button1" onclick="myModule.knop('*', this)">*</div> 
+		</div><br>
+		<div class="row">
+			<div class="button2" onclick="myModule.numb('4')">4</div> 
+			<div class="button2" onclick="myModule.numb('5')">5</div> 
+			<div class="button2" onclick="myModule.numb('6')">6</div> 
+			<div class="button1" onclick="myModule.knop('-', this)">-</div> 
+		</div><br>
+		<div class="row">
+			<div class="button2" onclick="myModule.numb('1')">1</div> 
+			<div class="button2" onclick="myModule.numb('2')">2</div> 
+			<div class="button2" onclick="myModule.numb('3')">3</div> 
+			<div class="button1" onclick="myModule.knop('+', this)">+</div> 
+		</div><br>
+		<div class="row">
+			<div class="button1" id="c" onclick="myModule.knop('c')">C</div> 
+			<div class="button2" onclick="myModule.numb('0')">0</div> 
+			<div class="button1" onclick="myModule.numb('.')">.</div>
+			<div class="button1" onclick="myModule.knop('=')">=</div> 
+		</div><br>
+		
+		
+
+		<script src="main.js"></script>
+	</div>
+</body>
+</html>
